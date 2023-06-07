@@ -1,0 +1,310 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px 200px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 span {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title h2 span {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #394867;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav li {
+    margin-right: 20px;
+
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #F1F6F9;
+}
+
+main {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #394867;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.slider-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slider-image:first-child {
+    opacity: 1;
+}
+
+.slider-container:hover .slider-image {
+    opacity: 0.5;
+}
+
+.slider-container:hover .slider-image:hover {
+    opacity: 1;
+}
+
+.subtitle {
+    text-align: left;
+    margin-top: 20px;
+    color: #394867;
+}
+
+.subtitle2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #00337C;
+    font-size: medium;
+}
+
+.subtitle3 {
+    text-align: left;
+    margin-top: 15px;
+    color: #18122B;
+    font-size: medium;
+}
+
+.slider-container {
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #394867;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #005e9e;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    min-width: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.dropdown-menu li a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+}
+
+.personel-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.personel-item {
+    width: 100%;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 50px 50px;
+    color: #112b2b !important;
+    text-align: center;
+    font-family: arial black, sans-serif;
+    font-size: 14pt;
+
+}
+
+.profil-image {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.personel-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95%;
+}
+
+.personel-kategori {
+    width: 90%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.personel-kategori h3 {
+    color: #394867;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px;
+}
+
+.atablo {
+    border-collapse: collapse;
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+}
+
+.atablo td,
+.atablo th {
+    border: 1px solid lavenderblush;
+    padding: 8px 12px;
+
+}
+
+.atablo th {
+
+    text-align: left;
+    background-color: #394867;
+    color: white;
+}
+
+.atablo tr:hover {
+    background-color: lavenderblush;
+}
+
+.atablo tr:nth-child(even) {
+    background-color: floralwhite;
+}
+
+.mobile-library {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.features {
+    list-style-type: none;
+    padding: 20px 20px 20px;
+    background-color: #b8c0cf;
+}
+
+.features li {
+    margin-bottom: 10px;
+    padding: 5px 5px 5px;
+    background-color: #EEEEEE;
+}
+
+.features li h4 {
+    color: #394867;
+}
+
+.harita {
+    padding: 20px 20px 20px;
+    align-items: center;
+}
